@@ -1,0 +1,62 @@
+---
+description: Component to create a grid strcture.
+
+labels: [Grid, Layout, Col, Row]
+---
+
+import { Col, Row } from './index';
+
+With grid component, the frame is defined outside the information area based on row and column, to ensure that every area can have stable arrangement.
+
+## Grid's basic usage
+
+```jsx
+<>
+  <Row>
+    <Col span={24}>col</Col>
+  </Row>
+  <Row>
+    <Col span={12}>col-12</Col>
+    <Col span={12}>col-12</Col>
+  </Row>
+  <Row>
+    <Col span={8}>col-8</Col>
+    <Col span={8}>col-8</Col>
+    <Col span={8}>col-8</Col>
+  </Row>
+  <Row>
+    <Col span={6}>col-6</Col>
+    <Col span={6}>col-6</Col>
+    <Col span={6}>col-6</Col>
+    <Col span={6}>col-6</Col>
+  </Row>
+</>
+```
+
+## Grid properties
+
+It's possible to offset the columns and rows using the offset property
+
+```jsx
+<>
+  <Row>
+    <Col span={8}>col-8</Col>
+    <Col span={8} offset={8}>
+      col-8
+    </Col>
+  </Row>
+  <Row>
+    <Col span={6} offset={6}>
+      col-6 col-offset-6
+    </Col>
+    <Col span={6} offset={6}>
+      col-6 col-offset-6
+    </Col>
+  </Row>
+  <Row>
+    <Col span={12} offset={6}>
+      col-12 col-offset-6
+    </Col>
+  </Row>
+</>
+```

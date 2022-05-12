@@ -1,0 +1,22 @@
+---
+description: 'A React Component for rendering text using internationalization Component.'
+labels: ['text', 'internationalization']
+---
+
+import TranslatedText from './translated-text';
+
+The TranslatedText component may be used to render texts according to the language defined in your internationalization provider.
+
+## TranslatedText's basic usage
+
+```jsx
+<TranslatedText textKey={'internationalization-key'} />
+```
+
+## TranslatedText properties
+
+A sufix and a prefix can be added to your text message.
+
+```jsx
+<TranslatedText textKey={message} prefix="Just a " suffix=" Sorry..." />
+```

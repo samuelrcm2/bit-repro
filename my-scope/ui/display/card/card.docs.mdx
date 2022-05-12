@@ -1,0 +1,42 @@
+---
+description: Component to wrap content in a Card.
+
+labels: [Card, Tile]
+---
+
+import Card from './card';
+
+The Card component may be used to render specific content as an profile or graphs from a dashboard.
+
+## Card's basic usage
+
+This component can be used to rend a basic content containing just a title.
+
+```jsx
+<Card
+  title="Card"
+  meta={{
+    title: 'Basic card',
+  }}
+/>
+```
+
+## Card properties
+
+An Icon with its properties can be added to the card with some description as well
+
+```jsx
+  <Card
+    title="Card"
+    extra={<a href="#">More</a>}
+    style={{ width: 300 }}
+    meta={{
+      icon: {
+        name: 'PermIdentityOutlined',
+        style: { fontSize: '29px', color: 'red' },
+      },
+      title: 'Basic card',
+      subtitle: 'Card's description',
+    }}
+  />
+```

@@ -1,0 +1,23 @@
+---
+description: PlasmaI18NextProvider context.
+labels: ['context']
+---
+
+import { PlasmaI18NextProviderProvider } from './plasma-i18next-provider-context-provider';
+import { MockComponent } from './plasma-i18next-provider-context.composition';
+
+## PlasmaI18NextProvider
+
+This is the PLASMA Internationalization Context Provider.
+
+### Component usage
+
+```tsx
+() => {
+import React from 'react';
+import PlasmaI18NextProviderProvider from './plasma-i18next-provider-context-provider';
+
+<PlasmaI18NextProviderProvider>
+  <MockComponent />
+</PlasmaI18NextProviderProvider>;
+```

@@ -1,0 +1,64 @@
+
+Dashboard
+Issues
+Pull Requests
+Milestones
+Explore
+ Notifications125
+ Create…
+Samuel Morais Profile and Settings…
+my-scopedigital
+/
+ap-my-scope-plasma-api
+Private
+Unwatch
+114
+Star
+0
+Fork
+0
+Code
+Issues
+Pull Requests
+Projects
+Releases
+Wiki
+Activity
+ 664 Commits
+ 3 Branches
+ 4 Tags
+ 2.2 MiB
+ Branch: develop
+ap-my-scope-plasma-api/.dockerignore
+25 lines
+316 B
+Raw
+Permalink
+Blame
+History
+**/.classpath
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.project
+**/.settings
+**/.toolstarget
+**/.vs
+**/.vscode
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/azds.yaml
+**/bin
+**/charts
+**/docker-compose*
+**/Dockerfile*
+**/node_modules
+**/npm-debug.log
+**/obj
+**/secrets.dev.yaml
+**/values.dev.yaml
+LICENSE
+README.md
+Powered by Gitea Licenses API Website
